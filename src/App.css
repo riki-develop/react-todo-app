@@ -7,7 +7,17 @@
   height: 100vh;
 }
 
+.innerWrap {
+  background:#fffeec;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px #eee;
+  min-width: 360px;
+  padding: 20px;
+}
+
 .inputText {
+  max-width: 200px;
+  width: 100%;
   padding: 10px;
 }
 
@@ -17,7 +27,7 @@
 }
 
 .todoList li {
-  width: 10%;
+  width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: 10px;
