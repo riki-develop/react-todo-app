@@ -8,11 +8,19 @@
 }
 
 .innerWrap {
-  background:#fffeec;
+  background: #fffeec;
   border-radius: 8px;
   box-shadow: 2px 2px 4px #eee;
-  min-width: 360px;
+  max-height: 65vh;
+  min-height: 380px;
+  min-width: 340px;
+  overflow: scroll;
   padding: 20px;
+}
+
+.inputTextWrap {
+  text-align: left;
+  min-width: 200px;
 }
 
 .inputText {
@@ -21,18 +29,36 @@
   padding: 10px;
 }
 
+.timeStamp {
+  font-size: 10px;
+  color: #8d8d8d;
+  margin: 3px 0;
+}
+
+.inputBtnWrap {
+  min-width: 100px;
+}
+
 .submitButton {
   padding: 8px 15px;
   cursor: pointer;
 }
 
+.todoList {
+  padding-left: 28px;
+}
+
 .todoList li {
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   margin-bottom: 10px;
 }
 
 .todoList li input {
   padding: 7px;
+}
+
+.todoList input[type="checkbox"] {
+  margin: 3px 13px;
 }
